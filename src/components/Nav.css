@@ -1,0 +1,24 @@
+.nav {
+  background-color: #25242a;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav li a {
+  color: azure;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav li a:focus,
+.nav li a:hover {
+  color: burlywood;
+}
